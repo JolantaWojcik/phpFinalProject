@@ -1,0 +1,347 @@
+
+@font-face {
+  font-family: "Mouse";
+  src: url('../fonts/Haunted Mouse.ttf');
+}
+.clear {
+clear:both;
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+padding: 0px 0;
+background-color:rgb(236, 236, 236);
+min-width: 95%;
+width: 100%;
+min-height: 100%;
+margin:0px;
+}
+
+.clr  {
+clear:both;
+}
+
+.wrapper  {
+width: 940px;
+background-color: rgba(251, 251, 251, .2);
+margin: auto;
+box-shadow: 0 0 15px rgba(0,0,0,0.4);
+min-height: 600px;
+margin-top:20px;
+}
+
+.wrapper h3 {
+font-weight: 300;
+font-size: 40px;
+color: #A6C7C5;
+text-align: right;
+margin: 16px;
+padding-top: 6px;
+padding-bottom: 0px;
+font-family: "Mouse";
+text-shadow: 2px 1px 1px black;
+}
+
+.wrapper h3 a {
+text-decoration: none;
+color: #FFFFFF;
+font-family: "Mouse";
+}
+
+
+.wrapper p {
+	font-size: 22px;
+	color:#634D4D;
+	font-family: "Arbutus Slab";
+	line-height:24px;
+	text-align:center;
+	width:80%;
+	margin: auto;
+	line-height: 1;
+}
+
+#wrapper2 {
+background-color: rgba(251, 251, 251, .7);
+margin: auto;
+box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+min-height: 400px;
+font-family: "Arbutus Slab";
+padding: 24px;
+margin-bottom: 20px;
+}
+
+#wrapper2 ul.nav{
+height: 34px;
+margin: -29px;
+color: white;
+padding: 0px;
+border: solid;
+border-width: thin;
+border-color: rgb(23, 7, 23);
+background-color: white;
+}
+
+.accountbox {
+padding-bottom: 50px;
+}
+
+.accountbox  a{
+color: rgb(10, 11, 136);
+}
+
+#wrapper5{
+height: 34px;
+background-color: rgb(49, 52, 195);
+margin: -29px;
+color: white;
+padding: 0px;
+border: solid;
+border-width: thin;
+border-color: rgb(23, 7, 23);
+border-color: rgb(0, 0, 0);
+height: 21px;
+}
+
+#wrapper2 ul.nav li {
+padding: 5px;
+list-style: none;
+display: inline-block;
+width: auto;
+float: left;
+font-size: 19px;
+text-transform: uppercase;
+background-color:black;
+}
+
+#wrapper2 ul.nav li:first-child {
+
+}
+#wrapper2 ul.nav li:nth-child(2)  {
+
+}
+#wrapper2 ul.nav li:nth-child(3) {
+
+}
+
+.movielistbox {
+margin-right: 0px;
+padding: 10px;
+margin: 5px;
+border-color: red;
+border-width: 1;
+height: 200;
+width: 630;
+background-color: rgb(246, 246, 246);
+float:left;
+}
+
+.movielistbox img {
+float:left;
+}
+
+.movielistbox2 {
+float: right;
+width: 75%;
+}
+
+.movielisttitle {
+font-size: 25px;
+}
+
+.movielisttitle a{
+color: rgb(36, 0, 202);
+font-size: 25px;
+}
+
+.movielistdescription {
+padding-top: 20px;
+}
+
+.movielisttime {
+float: left;
+padding: 4px 6px;
+}
+
+.movielistdirector {
+float: left;
+color: rgb(90, 90, 155);
+font-size: 14px;
+}
+
+.movielistgenre {
+font-weight: 800;
+float: left;
+padding: 8px 0px;
+}
+
+.cameraimg {
+padding-left: 70%;
+padding-top: 1%;
+}
+
+.movielistreviewnumb {
+margin-top: 7px;
+color: black;
+font-weight: 800;
+float: left;
+padding-left: 6px;
+}
+
+.movielistreviewnumb a{
+color: rgb(36, 0, 202);
+}
+
+.block {
+float: left;
+background-color: black;
+min-height: 220px;
+margin-top: 5px;
+min-width: 15px;
+}
+
+.moviebox{
+padding: 0px 20px;
+}
+
+.moviebox img {
+float:left;
+padding-top: 66px;
+}
+
+.moviebox2{
+float: left;
+max-width: 550px;
+padding: 0px 25px;
+font-size: 17px;
+}
+
+.movietitle {
+color: rgb(36, 0, 202);
+font-size: 25px;
+}
+
+.moviedescription {
+padding-top: 20px;
+}
+
+.movietime {
+
+}
+
+.moviedirector {
+color: rgb(45, 71, 153);
+}
+
+.moviegenre {
+font-weight: 800;
+}
+
+.movieyear {
+font-size: 12px;
+}
+.actors {
+padding: 18px 167px;
+font-size: 20px;
+color: rgb(46, 84, 250);
+font-weight: 900;
+}
+
+.borrowbutton {
+text-align: right;
+background-color: rgb(55, 55, 144);
+margin-left: 80%;
+padding: 5px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+border-radius: 8px;
+font-family: benchnine;
+font-size: 22px;
+}
+
+.borrowbutton a {
+color: rgb(242, 242, 242);
+}
+
+.actorlist {
+padding-left: 188px;
+color: rgb(10, 11, 136);
+}
+
+.actorlist a{
+color: rgb(10, 11, 136);
+}
+
+.conditions {
+color: rgb(47, 47, 47);
+}
+
+.conditions ul{
+list-style-type: none;
+font-size: 18px;
+}
+
+.conditions h1{
+text-align: center;
+}
+
+.conditions img{
+margin: 0px 222px;
+}
+
+.order {
+font-size: 20px;
+text-align: center;
+}
+
+.order a{
+font-weight: 800;
+}
+
+.orderbutton {
+text-align: center;
+background-color: rgb(55, 55, 144);
+padding: 3px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+border-radius: 8px;
+font-family: benchnine;
+font-size: 22px;
+margin: 21px 46%;
+color: white;
+}
+
+.added {
+color: rgb(45, 44, 44);
+font-size: 20px;
+text-align: center;
+padding-top: 140px;
+}
+
+.added a{
+color: rgb(25, 19, 123);
+}
+
+#wrapper2 ul.nav a{
+text-decoration: none;
+color: white;
+padding: 0px 30px;
+}
+
+#container {
+background-repeat: no-repeat;
+background-position: center;
+padding: 50px 30px;
+min-height: 518px;
+font-family: lucida grande;
+}
+
+#container p{
+text-decoration: none;
+}
+
+#container a{
+text-decoration: none;
+}
+
+#content {
+min-height:600px;
+padding-top:50px;
+}

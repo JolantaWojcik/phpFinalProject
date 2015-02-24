@@ -1,0 +1,1 @@
+﻿<div class="order">Zamówienie: <?php echo $value->title; ?></div>

@@ -1,0 +1,1 @@
+<div class="actorlist"><?php echo $value->imie . " " . $value->nazwisko;;?></div>
