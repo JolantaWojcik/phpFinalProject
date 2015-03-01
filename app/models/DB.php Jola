@@ -24,6 +24,7 @@ class DB {
 		if(!isset(self::$_instance)) {
 			self::$_instance = new DB();
 		}
+		
 		return self::$_instance;
 	}
 	
