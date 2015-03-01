@@ -10,7 +10,9 @@ class Register extends Controller {
 					'login' => array(
 						'required' => true,
 						'min' => 2,
+						//tyle bylo podane w tabeli na max
 						'max' => 20,
+						//sprawdza w tabeli czy uzytkownik juz jest
 						'unique' => 'uzytkownicy',
 						'pole' => 'pole2'
 					),
